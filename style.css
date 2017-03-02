@@ -3,7 +3,7 @@ Theme Name: Donaldson
 Template: iconic-one
 Author: Kurgaev Vladimir
 Author URI: http://kurgaev.space
-Version: 0.11
+Version: 0.13
 */
 
 /*------------*/
@@ -399,9 +399,17 @@ nav li .sub-menu li a:hover {
 
 @media screen and (max-width: 768px) {
 	
+	.site-header {
+		margin-bottom: 0;
+	}
+	
+	header .top {
+		max-width: auto;
+	}
+	
 	header .top,
 	footer .site-info .container-fluid .top {
-	   padding: 0;
+		padding: 0;
 	}
 
 	header .logo1,
@@ -428,6 +436,10 @@ nav li .sub-menu li a:hover {
 	.themonic-nav ul li,
 	.themonic-nav ul li a {
 		color: black;
+	}
+	
+	.metaslider {
+		display: none;
 	}
 
 	iframe {

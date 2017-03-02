@@ -399,8 +399,16 @@ nav li .sub-menu li a:hover {
 
 @media screen and (max-width: 768px) {
 	
+	.pen {
+		display: none;
+	}
+	
 	.site-header {
 		margin-bottom: 0;
+	}
+	
+	.top {
+		margin-right: 0;
 	}
 	
 	header .top {

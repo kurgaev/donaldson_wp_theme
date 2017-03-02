@@ -34,9 +34,10 @@
 
 				<div class="row bluebox">
 					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-						<img src="<?php bloginfo("stylesheet_directory"); ?>/img/3.png" alt="">
+						<img src="<?php bloginfo("stylesheet_directory"); ?>/img/3.png" alt="" class="pen">
 					</div>
-					<div class="col-xs-10 col-xs-offset-1 col-sm-7 col-md-7 col-lg-7">
+<!--				<div class="col-xs-10 col-xs-offset-1 col-sm-7 col-md-7 col-lg-7">-->
+					<div class="col-xs-10 col-sm-7 col-md-7 col-lg-7">
 						<h1>Закажите бесплатный расчет стоимости заказа!</h1>
 						<p>Мы свяжемся с вами и выполним расчет в катчайшие сроки</p>
 					</div>
